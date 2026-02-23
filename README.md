@@ -41,10 +41,10 @@ This project implements an arithemtic expression evaluator that supports:
   1. Install Qt 6
        Windows: Download https://www.qt.io/development/download
        macOS: bash
-           [brew install qt@6]
+           brew install qt@6
        Linux(Ubuntu/Debian):
-           [sudo apt update]
-           [sudo apt install qt6-base-dev qt6-tools-dev cmake build-essential]
+           sudo apt update
+           sudo apt install qt6-base-dev qt6-tools-dev cmake build-essential
 
   2. Clone the Repository
        [git clone https://github.com/WillScoot-crtl/AEEDevelopment.git]
@@ -52,11 +52,11 @@ This project implements an arithemtic expression evaluator that supports:
 
   3. Build the Project
            Bash
-       [mkdir build
-       [cd build
-       [
-       [cmake . .
-       [came --build
+       mkdir build
+       cd build
+       
+       cmake . .
+       came --build
      on linux/macOS you can also use:
      make -j$(nproc)
 **Running the Application**
